@@ -11,9 +11,9 @@ const countAdd = () => {
 }
 </script>
 <style lang="scss" scoped>
-.a {
-  .b {
-    color: #fff;
-  }
+.red {
+  background-color: red;
+  width: 100vw;
+  height: 300px;
 }
 </style>
