@@ -1,3 +1,20 @@
+@keyframes cssShake {
+  from {
+    pointer-events: none;
+    /* cursor: not-allowed; */
+  }
+  to {
+    pointer-events: all;
+  }
+}
+/* 防抖节流 */
+.button-shake {
+  animation: cssShake 1s step-end forwards;
+}
+/* 点击后清除动画，方便下次进入动画 */
+.button-shake:active {
+  animation: none;
+}
 /* 宽度 */
 .w1 {
   width: 10%;
