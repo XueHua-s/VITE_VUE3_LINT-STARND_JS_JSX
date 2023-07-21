@@ -13,7 +13,7 @@ export default defineConfig({
       include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue']
     }),
     requireTransform({
-      fileRegex: /.js$|.vue$/
+      fileRegex: /r.js$|.vue$|r.jsx$/
     })
   ],
   resolve: {

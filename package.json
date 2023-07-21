@@ -18,18 +18,20 @@
     "@vitejs/plugin-vue": "^3.0.3",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "@vue/test-utils": "^2.0.2",
+    "babel-eslint": "^10.1.0",
     "eslint": "^8.22.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-vue": "^9.3.0",
     "jsdom": "^20.0.0",
+    "sass": "^1.56.1",
     "vite": "^3.0.9",
     "vite-plugin-eslint": "^1.8.1",
-    "vitest": "^0.23.0",
     "vite-plugin-require-transform": "^1.0.4",
-    "sass": "^1.56.1"
+    "vitest": "^0.23.0"
   }
 }
